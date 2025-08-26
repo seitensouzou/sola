@@ -42,7 +42,7 @@
       box-sizing: border-box;
     }
 
-    /* プロフィールアイコン (静止画に変更) */
+    /* プロフィールアイコン (動画または静止画) */
     .profile-icon {
       width: 110px;
       height: 110px;
@@ -186,7 +186,7 @@
 
   <div class="link-container">
     
-    <img src="./sola-icon.mp4" class="profile-icon" alt="SoLA Profile Icon">
+    <video src="./sola-icon.mp4" class="profile-icon" autoplay loop muted playsinline poster="./sola-icon.jpg" alt="SoLA Profile Video"></video>
     
     <p class="profile-handle">@SoLA_souzou</p>
     <p class="profile-role">Model / Singer</p>
